@@ -25,7 +25,7 @@ function sign() {
         }
     }
     url.headers['Referer'] = 'https://m.stock.pingan.com/static/valueservice/loyaltyProgram/indexv60.html?v=7.3.2.0&WT.mc_id=app-usercenter-intergralpunching&aid=0&sid=0&ouid=ios_jy'
-    url.headers['User-Agent'] = 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 iOS AYLCAPP/7.3.2.0/h2b3b3a9cb8e4b7cbc978dd332b291e4f scheme/anelicaiapp deviceinfo/I|7.3.2.0|NA|h2b3b3a9cb8e4b7cbc978dd332b291e4f'
+    url.headers['User-Agent'] = 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 iOS'
 
     $httpClient.post(url, (error, response, data) => {
         let result = JSON.parse(data)
